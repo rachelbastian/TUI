@@ -1,0 +1,20 @@
+{
+  "name": "muther-os",
+  "version": "1.0.0",
+  "description": "MU/TH/ER OS Terminal Interface for VT-102",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.6.1",
+    "node-fetch": "^3.3.2",
+    "serialport": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
